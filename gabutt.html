@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squad Goals Motivation Hub ⚡</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #f8fafc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #38bdf8;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      font-size: 0.85rem;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 450px;
+    }
+
+    .card {
+      background: #1e293b;
+      border: 2px solid #334155;
+      border-radius: 20px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    /* Warna Khas Tiap Orang */
+    .card.salsa { border-color: #f43f5e; }
+    .card.bunga { border-color: #eab308; }
+    .card.somey { border-color: #10b981; }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .salsa .badge { background: #ffe4e6; color: #e11d48; }
+    .bunga .badge { background: #fef9c3; color: #ca8a04; }
+    .somey .badge { background: #d1fae5; color: #059669; }
+
+    .name {
+      font-size: 1.3rem;
+      font-weight: 800;
+      margin: 0 0 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .role {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    .message-box {
+      background: #0f172a;
+      border-radius: 12px;
+      padding: 12px 15px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #f1f5f9;
+      border-left: 4px solid #38bdf8;
+    }
+
+    .salsa .message-box { border-left-color: #f43f5e; }
+    .bunga .message-box { border-left-color: #eab308; }
+    .somey .message-box { border-left-color: #10b981; }
+
+    .footer-quote {
+      margin-top: 30px;
+      text-align: center;
+      padding: 15px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px dashed #38bdf8;
+      border-radius: 15px;
+      max-width: 450px;
+      width: 100%;
+    }
+
+    .footer-quote p {
+      margin: 0;
+      color: #38bdf8;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚡ SQUAD MOTIVATION BOARD ⚡</h1>
+  <div class="subtitle">Sistem Pendorong Semangat Buat Bestie Kesayangan</div>
+
+  <div class="container">
+
+    <!-- CARD SALSA -->
+    <div class="card salsa">
+      <span class="badge">Quality Control Badas🔍</span>
+      <div class="name">SALSA 🔍💖</div>
+      <div class="role">Status: QC ketat, tapi hati sensitif</div>
+      <div class="message-box">
+        "Semangat kerjanya di QC! Produk cacat aja kamu periksa ampe detail, masa masa depan sendiri kendor? Btw, <b>fokus kerjaan dulu ya, jangan pacaran mulu!</b> 😜 Kasihan tombol 'QC Approved'-nya dianggurin!"
+      </div>
+    </div>
+
+    <!-- CARD BUNGA -->
+    <div class="card bunga">
+      <span class="badge">ABB LADIES🛵</span>
+      <div class="name">BUNGA 💼🔥</div>
+      <div class="role">Status: Senyum profesional, dompet meringis</div>
+      <div class="message-box">
+        "Semangat menyapa pelanggan dengan senyum manisnya! Kalau mulai capek sama customer, inget satu hal: <b>ADA CICILAN MOTOR YANG HARUS DIBAYAR!</b> HAHAHA 🤣 Kerja keras bagai kuda demi leasing aman!"
+      </div>
+    </div>
+
+    <!-- CARD SOMEY -->
+    <div class="card somey">
+      <span class="badge">Pejuang Gelar🏥</span>
+      <div class="name">SOMEY 🏥🎓</div>
+      <div class="role">Status: Calon Sarjana, Penguasa RS Garut</div>
+      <div class="message-box">
+        "Selamat PKL di RS Garut! Inget ya, <b>JANGAN HOMESICK!</b> Tahan-tahanin makan dodol Garut dulu. Tahun depan udah lulus & dapet gelar sarjana! Bawa pulang ilmu + pengalaman konyol dari Garut!"
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-quote">
+    <p>🔥 SYSTEM STATUS: ALL BESTIES ARE UNSTOPPABLE! 🔥</p>
+  </div>
+
+</body>
+</html>
